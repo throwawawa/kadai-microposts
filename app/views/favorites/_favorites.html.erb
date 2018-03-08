@@ -4,7 +4,7 @@
       <div class="media-body">
         <div>
           <% #binding.pry %>
-          <%= link_to favorite.micropost.user.name, user_path(favorite.user) %> <span class="text-muted">posted at <%= favorite.micropost.created_at %></span>
+          <%= link_to favorite.micropost.user.name, user_path(favorite.micropost.user) %> <span class="text-muted">posted at <%= favorite.micropost.created_at %></span>
         </div>
         <div>
           <p><%= favorite.micropost.content %></p>
